@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- 4.9 Absolute positioning of elements -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Absolute Positioning</title>
+		<style type="text/css">
+
+			.blury_background { position: absolute;
+								top: 0px;
+								left: 0px;
+								z-index: 1; }
+			.image 				{ position: absolute;
+								top: 25px;
+								left: 100px;
+								z-index: 2}
+			.text				{ position: absolute;
+								top: 25px;
+								left: 100px;
+								z-index: 3;
+								font-size: 20pt;
+								font-family: tahoma, geneva sans-serif;}	
+
+
+				/* I added this because we was unable to see the back button because of Image, so i aligned the button to the center*/
+				.h4  				
+
+					{
+
+						text-align:  center;	
+					}
+					
+		</style>
+	</head>
+		<body>
+			<p><img src="images/blury_background.png" class="blury_background" alt="First positioned image" /></p>
+			<p><img src="images/image.png" class="image" alt="Second positioned image"/></p>
+			<p class= "text" >Positioned Text</p>
+
+
+			<!-- Below is the code when you click it gets you back to the Chapter 4 -->
+			<h4 class="h4"><a href="Chapter_4.html" class="previous">&laquo; Back to Chapter 4</a></h4>
+
+		</body>
+</html>

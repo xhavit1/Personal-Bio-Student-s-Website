@@ -1,0 +1,8 @@
+/* Fig. 4.7: stykes.css */
+/* External stylee sheet */
+	body 		{font-family: arial, helvetica, sans-serif;}
+	a.nodec		{text-decoration: none;}
+	a:hover		{font-weight: bold;}
+h1, em 			{text-decoration: underline;}
+ul 				{margin-left: 20px}
+ul ul  			{font-size: .8em; }

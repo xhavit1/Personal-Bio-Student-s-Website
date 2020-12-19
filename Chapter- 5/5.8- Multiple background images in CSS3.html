@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Fig. 5.8: multiplebackgrounds.html -->
+<!-- Multiple backgrounds images in CSS3 -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Multiple Backgrounds</title>
+		<style type="text/css">
+			div.background
+			{
+				background-image: url(images/ocean.png), url(images/logo.png);
+				background-position: bottom right, 100% center;
+				background-origin: border-box, content-box;
+				background-origin: no-repeat, no-repeat;
+			}
+			div.content
+			{
+				padding: 320px 15px;
+				color: white;
+				font-size: 150%;
+			}
+		</style>
+	</head>
+		<body>
+
+			<!-- Below is the code when you click it gets you back to the Chapter 5 -->
+			<h4><a href="Chapter_5.html" class="previous">&laquo; Back to Chapter 5</a></h4>
+
+			<div class = "background">
+				<div class = "content">
+					<p>Deitel & Associates, Inc., is and internationally recognized authoring and corporate training organization. The company offers instructor-led courses delivered at client sites such as C++, Visual C++ <sup>&reg ;</sup>, Visual basic <sup>&reg</sup>, Ovjecive-C<sup>&reg</sup>, XML<sup>&reg</sup>, Python<sup>&reg</sup>, JavaScript, object technology, Internet and web programing, and Android development</p>
+				</div>
+				</div>
+		</body>
+</html>

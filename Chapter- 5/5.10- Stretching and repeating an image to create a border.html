@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Fig. 5.10: imageborder.html -->
+<!-- Stretching and repeating an image to create a border-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Image Border</title>
+		<style type="text/css">
+			div
+			{
+				border-width: 35px;
+				width: 120pc;
+				padding: 25px 25px;
+			}
+			#stretch
+			{
+				-webkit-border-image: url(images/border.png) 30 30 30 30 stretch;
+				-moz-border-image: url(images/border.png) 30 30 30 30 stretch;
+				-o-border-image: url(images/border.png) 30 30 30 30 stretch;
+				border-image: url(images/border.png) 30 30 30 30 stretch;
+			}
+			#repeat
+			{
+				-webkit-border-image: url(images/border.png) 15% 15% stretch;
+				-moz-border-image: url(images/border.png) 15%  15% stretch;
+				-o-border-image: url(images/border.png) 15%  15% stretch;
+				border-image: url(images/border.png) 15%  15%  stretch;		
+			}
+		</style>
+	</head>
+		<body>
+
+			<!-- Below is the code when you click it gets you back to the Chapter 5 -->
+			<h4><a href="Chapter_5.html" class="previous">&laquo; Back to Chapter 5</a></h4>
+			
+			</h2>Image Borders</h2>
+			<img src="images/border.png" alt = "image used to demonstrate border">
+			<p><div id="stretch">Stretching the image border</div></p>
+			<p><div id="repeat">Repeating the image border</div></p>
+		</body>
+</html>

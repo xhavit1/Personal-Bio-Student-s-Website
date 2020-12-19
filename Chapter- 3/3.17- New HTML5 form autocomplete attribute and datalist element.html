@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Fig3.17 autocomplete.html-->
+<!-- New HTML5 form autocomplete attribute and datalist-->
+<html>
+	<head>
+		<meta charset="utf-8">
+	 	<title>New HTML5 autocomplete Attribute and datalist Element</title>
+	</head>
+		<body>
+
+		<!-- Button that i insertet to get you back to Assignments -->
+	<h3><a href="Chapter_3.html" class="previous">&laquo; Back to Chapter 3</a></h3>
+
+			<h1>Autocomplete and Datalist Demo</h1>
+			<p>This form demonstrates the new HTML5 autocomplete attribute and the datalist element</p>
+			<!-- turn autocomplete on-->
+			<form method="post" autocomplete="on">
+				<p><label>First name: <input type="text" id="First name"/> (First name)</label></p>
+				<p><label>Last Name:
+					<input type="text" id="lastName "/> (Last name) 
+				</label></p>
+				<p><label>Email:
+				<input type="email" id="email" placeholder="name@domain.com" />(name@domain.com)
+				</label></p>
+				<p> <label for="txtlist">Birth Month:
+					<input type="text" id="txtlist" placeholder="Select a Month" list="months"/>
+					<datalist id="months" /> 
+					<option value="January">
+						<option value="February">
+							<option value="March">
+								<option value="April">
+									<option value="May">
+										<option value="June">
+											<option value="July">
+												<option value="August">
+													<option value="September">
+														<option value="October">
+															<option value="November">
+																<option value="December">
+																</datalist>
+															</label></p>
+															<p><input type="submit" value="Submit" />
+															<input type="reset" value="Clear" /> </p>
+														</form>
+
+		</body>
+</html>
